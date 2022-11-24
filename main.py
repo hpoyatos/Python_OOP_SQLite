@@ -26,7 +26,7 @@ for pessoa in pessoas:
 
 #Criar um objeto com qualquer ator/atriz/diretor/diretora
 novo = Pessoa(0, "Denzel Washington")
-
+print(novo)
 #Olha que simples...
 novo = pessoaDAO.save(novo)
 
